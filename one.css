@@ -1,0 +1,29 @@
+#nav {
+    background-color: #B0413E;
+}
+#nav a{
+    color: white;
+    text-decoration: none;
+}
+#slider{
+    background-color: aqua;
+}
+#aboutme {
+    background-color: chartreuse;
+}
+#passions {
+    background-color: coral;
+}
+#logiciel{
+    background-color: blueviolet;
+}
+#portfolio {
+    background-color: #999999;
+}
+#footer {
+    background-color: #B0413E;
+}
+#footer a{
+    color: white;
+    text-decoration: none;
+}
