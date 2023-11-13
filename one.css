@@ -6,10 +6,14 @@
     text-decoration: none;
 }
 #slider{
-    background-color: aqua;
+    background-image: url("../portfolio_adrien_2/slider.jpg");
+    background-repeat: no-repeat;
+
+    background-position: center;
 }
 #aboutme {
-    background-color: chartreuse;
+    background-color: black;
+    color: #FFFFFF;
 }
 #passions {
     background-color: coral;
