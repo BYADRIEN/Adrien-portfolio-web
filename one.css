@@ -1,33 +1,45 @@
-#nav {
-    background-color: #B0413E;
-}
-#nav a{
-    color: white;
-    text-decoration: none;
-}
-#slider{
-    background-image: url("../portfolio_adrien_2/slider.jpg");
-    background-repeat: no-repeat;
 
-    background-position: center;
+#slider {
+    background-image: url("../portfolio_adrien_2/web-development-2.jpg");
+    height: 700px;
 }
+
+#slider a {
+    text-decoration: none;
+    color: white;
+}
+#slider a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
 #aboutme {
-    background-color: black;
+    background-color: rgba(2, 0, 36, 1);
     color: #FFFFFF;
 }
+
 #passions {
-    background-color: coral;
+    background: rgba(26, 26, 176, 1) 36%;
 }
-#logiciel{
-    background-color: blueviolet;
+
+#logiciel {
+    background-color: rgba(2, 0, 36, 1);
 }
+
 #portfolio {
-    background-color: #999999;
+    background: rgba(0, 212, 255, 1) 100%;
 }
+
+#portfolio p {
+    color: chartreuse;
+    font-family: "Century Gothic", Verdana, sans-serif;
+}
+
 #footer {
-    background-color: #B0413E;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(26, 26, 176, 1) 36%, rgba(0, 212, 255, 1) 100%);
 }
-#footer a{
+
+#footer a {
     color: white;
     text-decoration: none;
 }
