@@ -1,6 +1,5 @@
 
 #slider {
-    background-image: url("web-development-2.jpg");
     height: 700px;
     width: 100%;
 }
@@ -68,4 +67,14 @@
 #footer a {
     color: white;
     text-decoration: none;
+}
+.splide__slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.splide__slide img {
+    max-width: 100%;
+    height: auto;
 }
