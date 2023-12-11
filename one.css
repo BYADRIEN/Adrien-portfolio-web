@@ -44,6 +44,14 @@
     /*background: rgba(26, 26, 176, 1) 36%;*/
     background-color: #638ECB;
 }
+#passions p {
+    color: white;
+    font-family: "Century Gothic", Verdana, sans-serif;
+}
+#passions a{
+    text-decoration: none;
+    color: white;
+}
 
 #logiciel {
     background-color: #8AAEE0;
@@ -80,7 +88,7 @@
 }
 .image-container {
     position: relative;
-    width: 300px; /* Ajustez la largeur selon vos besoins */
+    /*width: 300px; /* Ajustez la largeur selon vos besoins */
 }
 
 .image-container img {
