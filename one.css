@@ -1,6 +1,13 @@
+#aboutme a {
+    color: white; /* Couleur du texte par défaut */
+    transition: color 0.3s ease; /* Transition de la couleur sur 0.3 secondes avec un timing "ease" */
+}
 
+#aboutme a:hover {
+    color: #B1C9EF; /* Couleur du texte au survol */
+}
 #slider {
-    height: 700px;
+    height: 900px;
     width: 100%;
 }
 
@@ -24,8 +31,8 @@
     /*top: 0;*/
     width: 100%;
     height: 100%;
-    opacity: 0.5;
-    background-image: url('https://assets.digitalocean.com/labs/images/community_bg.png');
+    opacity: 0.3;
+    background-image: url('https://www.digiantmedia.com/wp-content/uploads/2020/10/professional-web-design-and-custom-web-development-services-in-dubai.png');
     /*background-repeat: no-repeat;
     /*background-position: 50% 0;*/
     background-size: cover;
@@ -66,16 +73,20 @@
     color: chartreuse;
     font-family: "Century Gothic", Verdana, sans-serif;
 }
-
-#footer {
+/* FOOTER */
+footer {
     /*background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(26, 26, 176, 1) 36%, rgba(0, 212, 255, 1) 100%);*/
     background-color: #395886;
 }
 
-#footer a {
+footer a {
     color: white;
     text-decoration: none;
 }
+footer p{
+    color: white;
+}
+/* END FOOTER */
 .splide__slide {
     display: flex;
     justify-content: center;
@@ -113,4 +124,21 @@
 
 .image-container:hover .text-overlay {
     opacity: 1;
+}
+#test{
+    margin: 0;
+    padding: 0;
+    background: #395886;;
+}
+#test h1{
+    font-family: 'arial',cursive;
+    font-size: 10em;
+    margin: 250px auto;
+    text-align: center;
+    text-transform: uppercase;
+    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/3/354/desktop-wallpaper-music-logo-song-logo.jpg');
+    /*background-size: cover;*/
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
