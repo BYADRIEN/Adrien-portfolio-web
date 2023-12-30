@@ -1,3 +1,6 @@
+#aboutme p {
+    text-align: justify;
+}
 #aboutme a {
     color: white; /* Couleur du texte par défaut */
     transition: color 0.3s ease; /* Transition de la couleur sur 0.3 secondes avec un timing "ease" */
