@@ -27,41 +27,59 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
     <link href="
 https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 " rel="stylesheet">
+    <!-- Les scripts Bootstrap (jQuery et Popper.js) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.8/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
     <link rel="icon" type="image/png" sizes="512x512" href="logoandroid-chrome-512x512.png">
 </head>
 <body>
-<!-- slider -->
-<Section id="slider">
-    <div class="demo-wrap">
-        <div class="demo-content">
-            <div class="d-flex justify-content-around p-4 align-items-end">
-                <div>
-                    <a href="#home">BY__ΛDЯIΞП</a>
-                </div>
-                <div>
-                    <a href="#aboutme">A propos de</a>
-                    <a href="#logiciel">Logiciel</a>
-                    <a href="#aboutme">Portfolio</a>
-                </div>
-                <div>
-                    <a href="https://github.com/BYADRIEN"><i class="ri-github-line ri-xl "></i></a>
-                    <a href="https://www.linkedin.com/in/adrien-selle-a9a181295/"><i
-                            class="ri-linkedin-box-fill ri-xl"></i></a>
-                </div>
-            </div>
-            <div class="container p-5">
-                <div class="row p-5">
-                    <div class="col text-end">
-                        <h1 class="animate__animated animate__backInDown">Bienvenu(e) sur</h1>
-                    </div>
-                    <div class="col text-start">
-                        <h1 class="animate__animated animate__backInDown">mon portfolio</h1>
-                    </div>
-                </div>
+<!-- -->
+<!-- Header -->
+<header>
+    <!-- Barre de navigation Bootstrap -->
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand mx-3 text-white">BY__ΛDЯIΞП</a>
+        <!-- Bouton burger menu pour les petits écrans -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Contenu du menu -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto"> <!-- Ajoutez la classe mx-auto ici -->
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#aboutme">À propos de moi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#logiciel">Logiciel</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#projet">Portfolio</a>
+                </li>
+            </ul>
+
+            <!-- Bloc avec les icônes de GitHub et LinkedIn -->
+            <div class="mx-3"> <!-- Ajoutez la classe mx-3 pour la marge horizontale -->
+                <a href="https://github.com/BYADRIEN" class="mx-3 text-white text-decoration-none"><i class="ri-github-line ri-xl"></i></a>
+                <a href="https://www.linkedin.com/in/adrien-selle-a9a181295/" class="mx-3 text-white text-decoration-none"><i
+                        class="ri-linkedin-box-fill ri-xl"></i></a>
             </div>
         </div>
+    </nav>
+</header>
+<!-- Slider Bootstrap -->
+<div class="slider">
+    <div class="slide">
+        <img src="https://www.digiantmedia.com/wp-content/uploads/2020/10/professional-web-design-and-custom-web-development-services-in-dubai.png"
+             class="d-block w-100 custom-opacity" alt="Slide 1">
+        <div class="slide-content">
+            <h5 class="animate__animated animate__backInDown">Bienvenu(e) sur</h5>
+            <p class="animate__animated animate__backInDown">mon portfolio</p>
+        </div>
     </div>
-</Section>
+</div>
 <!-- -->
 <!-- about me -->
 <Section id="aboutme">
@@ -70,29 +88,21 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         <p class=" text-center text-white">A propos de moi</p>
         <div class="row">
             <div class="col-4 text-start col-12 text-center col-lg text-lg-start ">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Atque dolores impedit nisi perferendis, perspiciatis quo soluta vitae? Alias beatae corporis culpa
-                    dolorem expedita explicabo hic inventore nihil quasi quidem. Maiores.A ab commodi culpa cum
-                    cupiditate eligendi eum illum libero molestiae numquam officia optio qui sit soluta tempore vel,
-                    voluptatum! At corporis ducimus earum laudantium maiores neque nobis perferendis ratione?Lorem ipsum
-                    dolor sit amet, consectetur adipisicing elit. Blanditiis, et, molestiae! Ab beatae corporis,
-                    delectus dolor facere molestias odio qui reprehenderit Lorem ipsum dolor sit amet, consectetur
-                    adipisicing elit. Architecto atque culpa hic magni officiis praesentium quidem vitae? A aliquid
-                    consectetur est fuga incidunt ipsa laborum, praesentium quisquam veniam voluptas voluptates.</p>
+                <p>Bonjour, je suis Adrien Selle, étudiant en BES Web Developer à Namur, passionné par le développement web et les technologies innovantes.
+
+                    Formation et Expérience : Engagé dans le programme BES Web Developer, j'ai eu l'opportunité de consolider mes compétences en programmation, avec une expérience pratique variée. Mon parcours académique inclut un stage où j'ai travaillé sur un CMS, utilisant HTML, CSS, et JavaScript pour créer des solutions web efficaces et esthétiques.
+
+                    Expérience Professionnelle : Mon deuxième stage a été une immersion approfondie dans le développement, avec une concentration sur Angular et Java. Cette expérience m'a permis de plonger dans des technologies avancées, d'approfondir mes connaissances et de développer des compétences essentielles pour des projets de développement web <complexes class=""></complexes></p>
             </div>
             <div class="col-4 col-12 text-center col-lg text-lg-start">
                 <img class="w-100" src="mynameis.jpg"/>
             </div>
             <div class="col-4 col-12 text-center col-lg text-lg-start">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Atque dolores impedit nisi perferendis, perspiciatis quo soluta vitae? Alias beatae corporis culpa
-                    dolorem expedita explicabo hic inventore nihil quasi quidem. Maiores.A ab commodi culpa cum
-                    cupiditate eligendi eum illum libero molestiae numquam officia optio qui sit soluta tempore vel,
-                    voluptatum! At corporis ducimus earum laudantium maiores neque nobis perferendis ratione?Lorem ipsum
-                    dolor sit amet, consectetur adipisicing elit. Blanditiis, et, molestiae! Ab beatae corporis,
-                    delectus dolor facere molestias odio qui reprehenderit Lorem ipsum dolor sit amet, consectetur
-                    adipisicing elit. Architecto atque culpa hic magni officiis praesentium quidem vitae? A aliquid
-                    consectetur est fuga incidunt ipsa laborum, praesentium quisquam veniam voluptas voluptates.</p>
+                <p>Projets Passés : Parmi mes réalisations, j'ai créé un site mettant en avant des produits de construction, démontrant ma capacité à concevoir des plateformes fonctionnelles et informatives. J'ai également conçu un site vitrine dédié au cinéma, ajoutant une dimension artistique à ma palette de compétences. De plus, j'ai développé un site pour une entreprise dans le secteur du bien-être et une plateforme dédiée à la danse, illustrant ma polyvalence et ma capacité à répondre à des besoins divers.
+
+                    Vision pour le Futur : Mon ambition est de continuer à créer des solutions web innovantes qui repoussent les conventions, offrant une réelle valeur ajoutée aux utilisateurs.
+
+                    Explorez mon portfolio pour découvrir en détail mes projets passés, et n'hésitez pas à me contacter pour discuter de projets collaboratifs ou pour en savoir plus sur mon parcours.</p>
             </div>
             <a class="text-center text-decoration-none p-3"
                href="https://drive.google.com/file/d/1U5Ke4qUGHrv1iA7TII251BOBoCTc_l_J/view?usp=sharing"> <i
@@ -102,7 +112,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 </Section>
 <!-- -->
 <!-- projet -->
-<Section id="passions">
+<Section id="projet">
     <div class="container p-5">
         <div class="row">
             <div class="col-4 col-12 text-center col-lg text-lg-start">
