@@ -2,24 +2,30 @@
 header {
     background-color: #395886;
 }
-/* Ajoutez cette classe dans votre fichier CSS */
 .custom-opacity {
-    opacity: 0.7; /* Ajustez l'opacité selon vos besoins (0.0 = transparent, 1.0 = opaque) */
+    opacity: 0.7;
 }
-
-/* Style pour centrer le contenu du slide */
+#navbarNav a {
+    color: #FFFFFF;
+}
+#navbarNav a:hover {
+    color: #B1C9EF;
+}
 .slide {
     position: relative;
     text-align: center;
 }
 .slide-content {
     position: absolute;
-    top: 60%;
+    top: 40%;
     left: 50%; /* Ajustez cette valeur pour déplacer le texte vers la droite */
     transform: translate(-50%, -50%);
-    color: #fff; /* Couleur du texte, ajustez selon votre thème */
+    color: #395886; /* Couleur du texte, ajustez selon votre thème */
 }
-
+.image-opacity {
+    opacity: 0.3; /* Détermine l'opacité de l'image (0 = transparent, 1 = opaque) */
+}
+/* */
 /* About me */
 #aboutme p {
     text-align: justify;
@@ -38,7 +44,23 @@ header {
     background-color: #395886;
     color: #FFFFFF;
 }
+.download-link-container {
+    display: flex;
+    justify-content: center;
+    transition: box-shadow 0.3s ease-in-out; /* Ajout de l'effet de transition pour une animation fluide */
+}
 
+.download-link-container:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Ajout de l'effet de survol (shadow) */
+}
+
+.download-link {
+    text-decoration: none;
+    padding: 10px;
+    color: #000; /* Couleur du texte */
+}
+/* */
+/* PROJET */
 #projet {
     /*background: rgba(26, 26, 176, 1) 36%;*/
     background-color: #638ECB;
@@ -53,48 +75,6 @@ header {
     text-decoration: none;
     color: white;
 }
-
-#logiciel {
-    background-color: #8AAEE0;
-}
-
-#portfolio {
-    /*background: rgba(0, 212, 255, 1) 100%;*/
-    background-color: #B1C9EF;
-}
-
-#portfolio p {
-    color: chartreuse;
-    font-family: "Century Gothic", Verdana, sans-serif;
-}
-
-/* FOOTER */
-footer {
-    /*background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(26, 26, 176, 1) 36%, rgba(0, 212, 255, 1) 100%);*/
-    background-color: #395886;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-}
-
-footer p {
-    color: white;
-}
-
-/* END FOOTER */
-.splide__slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.splide__slide img {
-    max-width: 100%;
-    height: auto;
-}
-
 .image-container {
     position: relative;
     /*width: 300px; /* Ajustez la largeur selon vos besoins */
@@ -123,9 +103,45 @@ footer p {
 .image-container:hover .text-overlay {
     opacity: 1;
 }
+/* */
+/* Logiciel */
+#logiciel {
+    background-color: #8AAEE0;
+}
+.splide__slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-#test {
-    margin: 0;
-    padding: 0;
-    background: #395886;;
+.splide__slide img {
+    max-width: 100%;
+    height: auto;
+}
+/* */
+/* FOOTER */
+footer {
+    /*background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(26, 26, 176, 1) 36%, rgba(0, 212, 255, 1) 100%);*/
+    background-color: #395886;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p {
+    color: white;
+}
+footer .border-style {
+    border-right:  2px solid ; /* Couleur de la bordure */
+}
+/* END FOOTER */
+/* */
+/* Style pour la bordure du bas des éléments avec la classe "border-style" dans le footer sur les petits écrans */
+@media (max-width: 991.98px) {
+    footer .border-style {
+        border-bottom: 2px solid #ffc107; /* Couleur de la bordure en bas pour les petits écrans */
+        border-right: none; /* Supprimer la bordure à droite sur les petits écrans */
+    }
 }
