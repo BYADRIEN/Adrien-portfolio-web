@@ -17,13 +17,19 @@ header {
 }
 .slide-content {
     position: absolute;
-    top: 40%;
-    left: 50%; /* Ajustez cette valeur pour déplacer le texte vers la droite */
-    transform: translate(-50%, -50%);
-    color: #395886; /* Couleur du texte, ajustez selon votre thème */
+    top: 50%;
+    left: 0; /* Ajustez la position de départ à gauche */
+    right: 0; /* Ajustez la position de fin à droite */
+    transform: translate(0, -50%); /* Centre verticalement */
+    z-index: 1; /* Assurez-vous que le contenu est au-dessus du fond flou */
+    color: #395886; /* Couleur du texte, ajustez selon vos besoins */
 }
 .image-opacity {
-    opacity: 0.3; /* Détermine l'opacité de l'image (0 = transparent, 1 = opaque) */
+    opacity: 0.1; /* Opacité initiale de l'image (semi-transparente) */
+    transition: opacity 0.8s ease;
+}
+.background-blur {
+    backdrop-filter: blur(20px); /* Ajustez la valeur de flou selon vos préférences */
 }
 /* */
 /* About me */
