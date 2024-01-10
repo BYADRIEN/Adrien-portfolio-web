@@ -7,13 +7,9 @@ document.addEventListener('DOMContentLoaded', function () {
         autoplay: true,
         start: true,
         perPage: 5,
-        width: '100%',
         breakpoints: {
-            500: {
+            600: {
                 perPage: 2,
-            },
-            400: {
-                perPage: 1,
             },
         }
     });
