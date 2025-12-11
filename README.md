@@ -1,34 +1,61 @@
-# 🌐 Mon Portfolio - Adrien Selle
+🌐 Portfolio — Adrien Selle
 
-Bienvenue sur le dépôt GitHub de mon portfolio !  
-Ce site présente mes projets, mes compétences en développement web et mes expériences professionnelles.
+Bienvenue sur le dépôt GitHub de mon portfolio professionnel.
+Vous y découvrirez mes projets, mes compétences en développement web ainsi que mon parcours.
 
-## 🚀 À propos
-Je suis développeur web full-stack passionné par la création d’applications performantes et intuitives.  
-Compétences principales :
-- PHP (Symfony, Laravel)
-- JavaScript (Vue.js, Angular)
-- MySQL
-- HTML, CSS
+🚀 À propos de moi
 
-## 🖥️ Lien vers le portfolio
-🔗 [Voir le site en ligne](https://byadrien.github.io/Adrien-portfolio-web/)
+Je suis développeur web full-stack, passionné par la création d’applications modernes, performantes et intuitives.
+J’aime travailler autant sur la partie front-end que sur le back-end, en utilisant les technologies les plus adaptées à chaque projet.
 
-## 📂 Fonctionnalités
-- Présentation de mes projets
-- Mise en avant de mes compétences
-- Contact via formulaire intégré
+🔧 Compétences principales
 
-## 🛠️ Technologies utilisées
-- HTML / CSS / JavaScript
-- TailwindCSS
-- PHP / Laravel (pour les projets présentés)
-- Git & GitHub Pages pour le déploiement
+PHP (Laravel, Symfony)
 
-## 📫 Contact
-- Email : selleadrien@gmail.com
-- LinkedIn : [Adrien Selle](https://www.linkedin.com/in/adrien-selle)
+JavaScript (Vue.js, Angular)
 
----
+MySQL
 
-✨ N’hésitez pas à explorer mes autres projets sur mon profil GitHub !
+HTML / CSS
+
+TailwindCSS
+
+Git, GitHub, GitHub Pages
+
+🔗 Portfolio en ligne
+
+👉 Voir le site : (ajoute ici ton lien une fois déployé)
+
+📂 Fonctionnalités du site
+
+Présentation claire de mes projets web
+
+Mise en avant de mes compétences techniques
+
+Section expériences et parcours
+
+Formulaire de contact intégré
+
+Design responsive moderne
+
+🛠️ Technologies utilisées
+
+HTML / CSS / JavaScript
+
+TailwindCSS
+
+PHP / Laravel (utilisé sur certains projets présentés)
+
+Git & GitHub Pages pour l’hébergement
+
+📫 Me contacter
+
+Email : selleadrien@gmail.com
+
+LinkedIn : Adrien Selle
+
+(tu peux ajouter ton profil une fois prêt)
+
+✨ Explorez mes autres projets
+
+N’hésitez pas à parcourir mes autres réalisations disponibles sur mon profil GitHub !
